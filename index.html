@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/main.css">
+        <meta charset="utf-8" />
+        <title>郵便番号検索</title>
+        <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>郵便番号検索</h1>
+        <section class="condition_area">
+            <h2>郵便番号入力</h2>
+            <form>
+                <legend>検索したい郵便番号を入力してください。</legend>
+                <fieldset>
+                    郵便番号：<input id="zipcode3" type="text" maxlength="3" value="104" />-<input id="zipcode4" type="text" maxlength="4" value="6101" />
+
+                    <a id="searchButton" href="#">検索</a>
+                </fieldset>
+            </form>
+        </section>
+        <section class="result_area">
+            <h2>検索結果</h2>
+            <p>都道府県：<span id="prefecture">検索結果なし</span></p>
+            <p>市区町村：<span id="city">検索結果なし</span></p>
+            <p>町域：<span id="town">検索結果なし</span></p>
+        </section>
+
+        <script type="text/javascript" src="javascript/index.js"></script>
+    </body>
+</html>

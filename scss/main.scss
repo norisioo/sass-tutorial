@@ -1,0 +1,42 @@
+.condition_area{
+    background-color: peachpuff;
+    h2{
+        color: darkred;
+    }
+    fieldset{
+        border-color: red;
+        border-width: medium;
+        border-style: solid;
+        legend{
+            font-weight: bold;
+        }
+    }
+    input{
+        width: 40px;
+    }
+    a{
+        display: inline-block;
+        padding: 0px 5px 0px 5px;
+        border-color: gray;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+        background: linear-gradient(to bottom, white, lightgray);
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.result_area{
+    display: none;
+    background: palegreen;
+    h2{
+        color: darkgreen;
+    }
+    p{
+        font-weight: bold;
+        span{
+            font-weight: normal;
+        }
+    }
+}

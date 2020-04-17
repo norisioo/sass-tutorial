@@ -1,0 +1,32 @@
+.condition_area {
+  background-color: peachpuff; }
+  .condition_area h2 {
+    color: darkred; }
+  .condition_area fieldset {
+    border-color: red;
+    border-width: medium;
+    border-style: solid; }
+    .condition_area fieldset legend {
+      font-weight: bold; }
+  .condition_area input {
+    width: 40px; }
+  .condition_area a {
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, white, lightgray);
+    text-decoration: none;
+    color: black; }
+
+.result_area {
+  display: none;
+  background: palegreen; }
+  .result_area h2 {
+    color: darkgreen; }
+  .result_area p {
+    font-weight: bold; }
+    .result_area p span {
+      font-weight: normal; }
